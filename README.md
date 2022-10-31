@@ -8,3 +8,11 @@ textbook we solve a complex function $f(x) \equiv a^{sx_{1} + x_{2}}(modN)$ wher
 $a^{r} \equiv 1(modN)$, using discrete logarithm by taking $a^{s} = b$ 
 and solving $s$ by $a^{r}(modN)$ and $b^{r}(modN)$ by modular exponentiation. 
 The code is designed specifically for $a=4$, $b=13$ and $N=17$.
+
+
+
+The result gave out $s=35$ and more qubit are required
+for efficiently finding the value of s. These kind of 
+problem can be solved efficiently only if there is a
+mechanism or a set of steps to find oracle for any
+value of multiplication modulo N.
