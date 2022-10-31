@@ -9,7 +9,8 @@ $a^{r} \equiv 1(modN)$, using discrete logarithm by taking $a^{s} = b$
 and solving $s$ by $a^{r}(modN)$ and $b^{r}(modN)$ by modular exponentiation. 
 The code is designed specifically for $a=4$, $b=13$ and $N=17$.
 
-
+The cicuit is
+![image](https://user-images.githubusercontent.com/115821009/199062117-ac901652-19b8-4497-8a23-3ac58c39d4ea.png)
 
 The result gave out $s=35$ and more qubit are required
 for efficiently finding the value of s. These kind of 
