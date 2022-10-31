@@ -84,7 +84,8 @@ for qubit in range(5):
 for qubit in range(5,10,+1):
 	my_circuit.append(mod13(2**(qubit-5)), [qubit] + [10,11,12,13,14])
 #appending the gate for inverse quantum fourier transformation
-my_circuit.append(inverse_qft(10), range(10))
+my_circuit.append(inverse_qft(5), range(5))
+my_circuit.append(inverse_qft(5), [5,6,7,8,9])
 my_circuit.barrier()
 my_circuit.measure(range(5),range(5)) #The first 5 qubits are measured initially
 my_circuit.draw()     #The circuit is drawn
