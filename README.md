@@ -1,5 +1,5 @@
 # Discrete-Logarithm-
-Calculating the discrete log of mod17 by modular exponentiation.
+Simulating a quantum circuit for solving, two variable modulo function using discrete logarithm problem.
 
 Discrete log problem - Give a prime $p$, a primitive root $g$, and 
 $h \not\equiv 0(modp)$ (which means $gcd(h,p)=1)$.
